@@ -9,5 +9,6 @@ jspm_packages
 # Webpack directories
 .webpack
 
-# Important files
+# Others files
 keys.txt
+certificate.pdf
