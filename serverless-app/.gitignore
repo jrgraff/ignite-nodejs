@@ -4,6 +4,10 @@ jspm_packages
 
 # Serverless directories
 .serverless
+.dynamodb
 
 # Webpack directories
 .webpack
+
+# Important files
+keys.txt
