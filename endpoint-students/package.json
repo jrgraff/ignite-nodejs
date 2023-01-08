@@ -1,0 +1,27 @@
+{
+  "name": "endpoint-students",
+  "version": "1.0.0",
+  "description": "Uma simples api para criação e listagem de estudantes",
+  "main": "src/server.ts",
+  "author": "Jackson Graff",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/server.js",
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn ./src/server.ts",
+    "typeorm": "ts-node-dev  ./node_modules/typeorm/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "pg": "^8.7.1",
+    "swagger-ui-express": "^4.2.0",
+    "tsyringe": "^4.6.0",
+    "typeorm": "^0.2.41"
+  }
+}
